@@ -587,11 +587,11 @@
     <!-- Modal -->
     <div class="backdrop" id="modal">
       <div class="modal">
-        <a class="modal-close" href="#">
+        <button class="modal-close" type="button">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#close"></use>
           </svg>
-        </a>
+        </button>
 
         <p class="modal-title">Leave your contacts and we will call you back</p>
 
@@ -665,7 +665,11 @@
               value="true"
             />
 
-            <span class="modal-checkbox-custom"></span>
+            <span class="modal-checkbox-custom">
+              <svg class="modal-checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#check-mark"></use>
+              </svg>
+            </span>
 
             <span class="modal-checkbox-text">
               I accept the terms and conditions of the
